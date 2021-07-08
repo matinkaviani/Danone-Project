@@ -8256,11 +8256,31 @@ License - nucleoapp.com/license/
 	 margin-top: 1em;
 	 color: black;
 	 margin: auto;
-	 max-width: 130px;
+	 width: 130px;
 	 text-decoration: none;
 	 text-align: center;
 	 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	 transition: background-color 300ms;
 }
-.main-btn:hover {
-	 background-color: rgb(150 92 184);
+    .main-btn:hover {
+        background-color: rgb(150 92 184);
+    }
+.font-14 {
+    font-size: 14px;
+}
+.line-h-30 {
+    line-height: 30px;
+}
+.sec-bg {
+    background-color: rgba(43, 60, 144, 1);
+}
+.sec-bg:hover {
+    background-color: rgb(89 106 188);
+}
+.mt-100 {
+    margin-top: 100px !important;
+}
+.link {
+    color:rgba(70, 106, 232, 1);
+    border-bottom: solid 1px rgba(70, 106, 232, 1);
+}
