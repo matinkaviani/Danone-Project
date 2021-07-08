@@ -8215,3 +8215,49 @@ License - nucleoapp.com/license/
 .over-hidden {
     overflow: hidden;
 }
+.main-btn {
+    padding: 10px 25px 10px 25px;
+    background-color: rgba(107, 51, 139, 1);
+    border-radius: 5px;
+    color: white !important;
+    font-size: 18px;
+    transition: background 400ms;
+    cursor: pointer;
+    user-select: none;
+}
+[anim="ripple"] {
+	 position: relative;
+	 overflow: hidden;
+}
+ [anim="ripple"]:before {
+	 content: '';
+	 position: absolute;
+	 display: block;
+	 background: var(--ripple-background, white);
+	 border-radius: 50%;
+	 pointer-events: none;
+	 top: calc(var(--y) * 1px);
+	 left: calc(var(--x) * 1px);
+	 width: calc(var(--d) * 1px);
+	 height: calc(var(--d) * 1px);
+	 opacity: calc(var(--o, 1) * var(--ripple-opacity, 0.3));
+	 transition: calc(var(--t, 0) * var(--ripple-duration, 600ms)) var(--ripple-easing, linear);
+	 transform: translate(-50%, -50%) scale(var(--s, 1));
+	 transform-origin: center;
+}
+.main-btn {
+	 --ripple-background: black;
+	 --ripple-opacity: 0.1;
+	 --ripple-duration: 600ms;
+	 display: block;
+	 margin-top: 1em;
+	 color: black;
+	 margin: auto;
+	 max-width: 130px;
+	 text-decoration: none;
+	 text-align: center;
+	 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	 transition: background-color 300ms;
+}
+.main-btn:hover {
+	 background-color: rgb(150 92 184);
