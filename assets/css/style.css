@@ -8202,7 +8202,10 @@ License - nucleoapp.com/license/
     backface-visibility: hidden;
 }
 .mobile-num {
-    padding-right: 35px !important;
+    padding-right: 45px !important;
+    border: none;
+    background-color: #9e9e9e21;
+    border-radius: 5px;
 }
 .mobile-icn {
     position: absolute;
