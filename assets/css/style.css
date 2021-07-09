@@ -4547,7 +4547,7 @@ License - nucleoapp.com/license/
 }
 
 .navbar .navbar-collapse:after {
-  background-color: #FFFCF5;
+  background: linear-gradient(180deg, #2B3C90 0%, #6B338B 54.69%, #2B3C90 100%);
 }
 
 .navbar #navbarSupportedContent .nav-item {
@@ -8331,4 +8331,18 @@ html.nav-open .fixed-top {
 }
 html.nav-open .navbar-collapse {
     padding-left: 0;
+}
+.nav-item p {
+    color: white;
+}
+.menu-btn {
+    background-color: #ffffff70 !important;
+    color: white !important;
+    opacity: 1 !important;
+    padding: 7px 10px !important;
+    width: 100px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
