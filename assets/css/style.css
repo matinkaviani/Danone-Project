@@ -7670,8 +7670,8 @@ License - nucleoapp.com/license/
     right: 0;
     z-index: 1032;
     visibility: visible;
-    background-color: #999;
-    overflow-y: visible;
+    background:  linear-gradient(180deg, #2B3C90 0%, #6B338B 54.69%, #2B3C90 100%);
+    overflow-y: scroll;
     border-top: none;
     text-align: left;
     /* border-left: 1px solid #CCC5B9; */
@@ -8360,4 +8360,16 @@ html.nav-open .navbar-collapse {
     ul.navbar-nav {
         display: block;
     }
+}
+.navlink {
+    color: white !important;
+    opacity: 1 !important;
+}
+.navborder {
+    border-bottom: 2px solid !important;
+    border-image: linear-gradient(270deg, rgb(255,255,255, 0.64), rgb(255,255,255, 0.04)) 1;
+    width: 70%;
+    margin: auto;
+    text-align: right;
+    padding-bottom: 10px;
 }
