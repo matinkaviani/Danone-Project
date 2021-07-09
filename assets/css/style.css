@@ -4548,7 +4548,7 @@ License - nucleoapp.com/license/
 }
 
 .navbar .navbar-collapse:after {
-  background: linear-gradient(180deg, #2B3C90 0%, #6B338B 54.69%, #2B3C90 100%);
+  /* background: linear-gradient(180deg, #2B3C90 0%, #6B338B 54.69%, #2B3C90 100%); */
 }
 
 .navbar #navbarSupportedContent .nav-item {
@@ -7671,6 +7671,7 @@ License - nucleoapp.com/license/
     z-index: 1032;
     visibility: visible;
     background:  linear-gradient(180deg, #2B3C90 0%, #6B338B 54.69%, #2B3C90 100%);
+    background-repeat: no-repeat;
     overflow-y: scroll;
     border-top: none;
     text-align: left;
@@ -7718,8 +7719,8 @@ License - nucleoapp.com/license/
     height: 100%;
     width: 100%;
     position: absolute;
-    background-color: #FFFCF5;
-    background-image: linear-gradient(to bottom, transparent 0%, rgba(112, 112, 112, 0) 60%, rgba(186, 186, 186, 0.15) 100%);
+    /* background-color: #FFFCF5; */
+    /* background-image: linear-gradient(to bottom, transparent 0%, rgba(112, 112, 112, 0) 60%, rgba(186, 186, 186, 0.15) 100%); */
     display: block;
     content: "";
     z-index: 1;
@@ -8372,4 +8373,7 @@ html.nav-open .navbar-collapse {
     margin: auto;
     text-align: right;
     padding-bottom: 10px;
+}
+.font-9 {
+    font-size: 9px;
 }
