@@ -7799,7 +7799,7 @@ License - nucleoapp.com/license/
     position: relative;
     display: flex;
     -ms-flex-pack: justify !important;
-    justify-content: space-between !important;
+    /* justify-content: space-between !important; */
     -ms-flex-align: center;
     align-items: center;
     -webkit-transform: translateX(0);
@@ -8306,4 +8306,20 @@ License - nucleoapp.com/license/
 }
 .profile-complete-container input {
     min-width: 265px;
+}
+html.nav-open body::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0000006b;
+    display: block;
+    top: 0;
+    z-index: 1000;
+}
+.fixed-top {
+    position: absolute;
+}
+html.nav-open .fixed-top {
+    position: fixed;
 }
