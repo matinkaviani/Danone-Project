@@ -7094,6 +7094,7 @@ License - nucleoapp.com/license/
     position: relative;
     font-size: 12px;
     background-color: #efefef;
+    min-height: 100vh;
   }
   h6 {
     font-size: 1em;
@@ -7689,6 +7690,8 @@ License - nucleoapp.com/license/
     position: relative;
     z-index: 3;
     height: 95%;
+    width: 100%;
+    margin: auto;
   }
   .navbar-collapse .navbar-nav>.nav-item:last-child {
     border-bottom: 0;
@@ -8322,4 +8325,10 @@ html.nav-open body::after {
 }
 html.nav-open .fixed-top {
     position: fixed;
+}
+.nav-item {
+    text-align: center;
+}
+html.nav-open .navbar-collapse {
+    padding-left: 0;
 }
