@@ -8429,7 +8429,7 @@ html.nav-open .navbar-collapse {
     filter: none;
 }
 .brand-logo {
-    background-color: white;
+    background-color: #efefef;
     border-radius: 100%;
     width: 97px;
     margin: auto;
