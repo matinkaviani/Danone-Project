@@ -8399,3 +8399,10 @@ html.nav-open .navbar-collapse {
 .bottom-nav span {
     font-size: 10px;
 }
+.backbtn {
+    margin-left: 20px;
+    color:white;
+}
+.navbar-toggler {
+    margin-right: 20px;
+}
