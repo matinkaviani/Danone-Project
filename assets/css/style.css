@@ -8377,3 +8377,25 @@ html.nav-open .navbar-collapse {
 .font-9 {
     font-size: 9px;
 }
+.bottom-nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(43, 60, 144, 1);
+    direction: rtl;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+.bottom-nav a {
+    color: white;
+}
+.bottom-nav .row {
+    flex-wrap: initial;
+}
+.bottom-nav .fa {
+    font-size: 20px;
+}
+.bottom-nav span {
+    font-size: 10px;
+}
