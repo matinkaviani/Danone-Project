@@ -8412,4 +8412,32 @@ html.nav-open .navbar-collapse {
 }
 .undertop {
     direction: rtl;
+    background-image: url(../img/ill/Container.png);
+    background-size: cover;
+    margin-top: -2px;
+    padding: 15px 20px;
+    color: white;
+    max-height: 50px;
+}
+.undertop span {
+    font-size: 21px;
+}
+.undertop img {
+    backface-visibility: hidden;
+}
+.filter-none {
+    filter: none;
+}
+.brand-logo {
+    background-color: white;
+    border-radius: 100%;
+    width: 97px;
+    margin: auto;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+    position: relative;
+    top: -15px;
 }
