@@ -8518,12 +8518,13 @@ html.nav-open .navbar-collapse {
     border-radius: 5px;
 }
 .news-slider .card-title {
-    font-size: 8px;
+    font-size: 10px;
+    line-height:15px;
     text-align: right;
 }
 
 .news-slider .card-text {
-    font-size: 7px;
+    font-size: 9px;
     text-align: right;
 }
 .card {
