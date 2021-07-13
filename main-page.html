@@ -32,6 +32,8 @@ The above copyright notice and this permission notice shall be included in all c
   <!-- CSS Files -->
   <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
   <link href="./assets/css/style.css?v=2.2.0" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets/owl/owl.theme.default.min.css">
 </head>
 
 <body class="index-page sidebar-collapse">
@@ -59,12 +61,12 @@ The above copyright notice and this permission notice shall be included in all c
                         <p class="">۰۹۱۲۱۲۳۴۵۶۷</p>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="main-btn menu-btn" href="#">
+                        <a href="#" class="main-btn menu-btn">
                           ویرایش<i class="fa fa-pencil-square-o"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="main-btn menu-btn menu-black mt-1" href="#">
+                        <a href="#" class="main-btn menu-btn menu-black mt-1">
                             خروج<i class="fa fa-sign-out"></i>
                         </a>
                     </li>
@@ -140,13 +142,33 @@ The above copyright notice and this permission notice shall be included in all c
             </div>
         </div>
     </div>
-    <div class="main-content">
+    <div class="main-content mt-5">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="titles">
                     <span>کمپین و رویداد ها</span>
                     <span class="line"></span>
                     <a href="#"><span>نمایش همه</span></a>
+                </div>
+            </div>
+            <div class="page-content mt-4">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="main-container-img" style="background-image: url('assets/img/main/Rectangle 24.png');">
+                            <div class="main-cap d-block">
+                                <span class="maincap-title">وبینار علمی کرونا در کودکان</span>
+                                <span class="maincap-desc">پنجشنبه ۲۳ مرداد ۱۴۰۰<br /> ساعت ۱۷:۰۰ الی ۱۸:۰۰</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="main-container-img" style="background-image: url('assets/img/main/Rectangle 23.png');">
+                            <div class="main-cap d-block">
+                                <span class="maincap-title">وبینار علمی کرونا در کودکان</span>
+                                <span class="maincap-desc">پنجشنبه ۲۳ مرداد ۱۴۰۰<br /> ساعت ۱۷:۰۰ الی ۱۸:۰۰</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -197,25 +219,31 @@ The above copyright notice and this permission notice shall be included in all c
     <!--  Google Maps Plugin    -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
     <script src="assets/js/ripple.js"></script>
+    <script src="./assets/owl/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function () {
-            function readURL(input) {
-                if (input.files && input.files[0]) {
-                    var reader = new FileReader();
-
-                    reader.onload = function (e) {
-                        $('#avatarImg').attr('src', e.target.result);
-                        $('#avatarImgMenu').attr('src', e.target.result);
+            $('.owl-carousel').owlCarousel({
+                rtl: true,
+                stagePadding: 50,
+                loop: true,
+                margin: 10,
+                dots: false,
+                nav: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    400: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
                     }
-
-                    reader.readAsDataURL(input.files[0]);
                 }
-            }
-
-            $("#avatarpic").change(function () {
-                readURL(this);
-            });
-
+            })
       });
     </script>
 </body>
