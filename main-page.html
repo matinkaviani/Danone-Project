@@ -152,7 +152,7 @@ The above copyright notice and this permission notice shall be included in all c
                 </div>
             </div>
             <div class="page-content mt-4">
-                <div class="owl-carousel owl-theme">
+                <div class="owl-carousel top-slider owl-theme">
                     <div class="item">
                         <div class="main-container-img" style="background-image: url('assets/img/main/Rectangle 24.png');">
                             <div class="main-cap d-block">
@@ -176,7 +176,32 @@ The above copyright notice and this permission notice shall be included in all c
                         <span class="line"></span>
                         <a href="#"><span>نمایش همه</span></a>
                     </div>
+                    <div class="owl-carousel news-slider owl-theme mt-3 px-3">
+                        <div class="item">
+                            <div class="p-2">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/img/main/news1.png" alt="Card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title">چگونه در دوران شیردهی دچار چاقی نشویم ؟</h4>
+                                        <p class="card-text">داشتن یک رژیم غذایی کامل ، سالم و متنوع که منجر به چاقی نشود ، در دوران شیردهی از اهمیت بالایی برخوردار است...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="p-2">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/img/main/news2.png" alt="Card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title">بهترین راهکار برای تقویت استخوان ها در دوران شیردهی</h4>
+                                        <p class="card-text">داشتن یک رژیم غذایی کامل ، سالم و متنوع که منجر به چاقی نشود ، در دوران شیردهی از اهمیت بالایی برخوردار است...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -229,7 +254,7 @@ The above copyright notice and this permission notice shall be included in all c
     <script src="./assets/owl/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function () {
-            $('.owl-carousel').owlCarousel({
+            $('.top-slider').owlCarousel({
                 rtl: true,
                 stagePadding: 50,
                 loop: true,
@@ -244,13 +269,36 @@ The above copyright notice and this permission notice shall be included in all c
                         items: 1
                     },
                     600: {
-                        items: 1
+                        items: 2
                     },
                     1000: {
-                        items: 1
+                        items: 2
                     }
                 }
-            })
+            });
+
+            $('.news-slider').owlCarousel({
+                rtl: true,
+                stagePadding: 0,
+                loop: true,
+                margin: 5,
+                dots: false,
+                nav: false,
+                responsive: {
+                    0: {
+                        items: 2
+                    },
+                    400: {
+                        items: 2
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 2
+                    }
+                }
+            });
       });
     </script>
 </body>

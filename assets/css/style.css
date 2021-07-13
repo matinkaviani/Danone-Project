@@ -3163,7 +3163,7 @@ h3 .small {
 .footer-big h5,
 .footer-big h4,
 .media .media-heading {
-  font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+  font-family: 'yekan';
 }
 
 .title,
@@ -6217,11 +6217,12 @@ License - nucleoapp.com/license/
 }
 
 .card .card-body {
-  padding: 20px;
+  padding: 10px;
 }
 
 .card .card-body .card-title {
-  margin: 5px 0 0 0;
+  margin: 5px 0 7px 0;
+  min-height: 18px;
 }
 
 .card .card-body .card-category~.card-title {
@@ -8379,7 +8380,7 @@ html.nav-open .navbar-collapse {
     font-size: 9px;
 }
 .bottom-nav {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: rgba(43, 60, 144, 1);
@@ -8387,6 +8388,7 @@ html.nav-open .navbar-collapse {
     text-align: center;
     color: white;
     padding: 10px 0;
+    z-index: 99;
 }
 .bottom-nav a {
     color: white;
@@ -8514,4 +8516,16 @@ html.nav-open .navbar-collapse {
     display: block;
     z-index: 0;
     border-radius: 5px;
+}
+.news-slider .card-title {
+    font-size: 8px;
+    text-align: right;
+}
+
+.news-slider .card-text {
+    font-size: 7px;
+    text-align: right;
+}
+.card {
+border-bottom: solid 4px rgba(43, 60, 144, 0.85);
 }
