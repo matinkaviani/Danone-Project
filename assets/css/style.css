@@ -8476,6 +8476,7 @@ html.nav-open .navbar-collapse {
 }
 .main-content {
     margin-top: 30px !important;
+    margin-bottom: 65px;
 }
 .main-container-img {
     min-height: 127px;
