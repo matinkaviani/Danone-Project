@@ -8527,6 +8527,4 @@ html.nav-open .navbar-collapse {
     font-size: 9px;
     text-align: right;
 }
-.card {
-border-bottom: solid 4px rgba(43, 60, 144, 0.85);
-}
+.card {border-bottom: solid 4px rgba(43, 60, 144, 0.85);margin-bottom: 0;}
