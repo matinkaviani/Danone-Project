@@ -8529,3 +8529,13 @@ html.nav-open .navbar-collapse {
     text-align: right;
 }
 .card {border-bottom: solid 4px rgba(43, 60, 144, 0.85);margin-bottom: 0;}
+.topics {
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    padding: 10px;
+    background: linear-gradient(180deg, #6B338B 0%, #2B3C90 100%);
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 17px;
+}
