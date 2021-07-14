@@ -8539,3 +8539,15 @@ html.nav-open .navbar-collapse {
     color: white;
     margin-bottom: 17px;
 }
+.topics .topic-right {
+    font-size: 14px;
+}
+.topics .topic-left {
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+}
+.topics i {
+    font-size: 14px;
+    margin-right: 10px;
+}
