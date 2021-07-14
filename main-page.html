@@ -274,6 +274,48 @@ The above copyright notice and this permission notice shall be included in all c
                         </a>
                     </div>
                 </div>
+                <div class="row justify-content-center mt-2">
+                    <div class="titles">
+                        <span>محصولات</span>
+                        <span class="line" style="width:193px"></span>
+                        <a href="#"><span>نمایش همه</span></a>
+                    </div>
+                    <div class="owl-carousel products-slider owl-theme mt-2 px-3">
+                        <div class="item">
+                            <div class="">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/img/main/Aptakid-Packshot1-1 1.png" alt="Card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">Aptamil</h4>
+                                        <p class="card-text">آپتامیل ۱ ، قوطی ۴۰۰ گرمی</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/img/main/Aptakid-Packshot1-1 1.png" alt="Card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">Aptamil HA Pro Syneo 1</h4>
+                                        <p class="card-text">آپتامیل اچ آ پروسینئو ۱، قوطی ۴۰۰ گرمی</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/img/main/Aptakid-Packshot1-1 1.png" alt="Card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">Protein Supplement</h4>
+                                        <p class="card-text">آپتامیل نوتریشیا پودر مکمل  پروتئین</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -368,6 +410,29 @@ The above copyright notice and this permission notice shall be included in all c
                     },
                     1000: {
                         items: 2
+                    }
+                }
+            });
+
+                    $('.products-slider').owlCarousel({
+                rtl: true,
+                stagePadding: 0,
+                loop: true,
+                margin: 15,
+                dots: false,
+                nav: false,
+                responsive: {
+                    0: {
+                        items: 3
+                    },
+                    400: {
+                        items: 3
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 3
                     }
                 }
             });

@@ -8551,3 +8551,40 @@ html.nav-open .navbar-collapse {
     font-size: 14px;
     margin-right: 10px;
 }
+.products-slider h4 {
+    font-weight: 600;
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px !important;
+    position: relative;
+}
+.products-slider h4::after {
+    content: "";
+    position: absolute;
+    border-bottom: solid 1px  rgba(43, 60, 144, 1);
+    width: 20px;
+    bottom:0;
+}
+.products-slider p {
+    font-size: 6px !important;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 0 !important;
+    margin-bottom: 6px !important;
+}
+.products-slider img {
+    padding: 10px;
+}
+.products-slider .card {
+    border-bottom-color: #6B338B !important;
+    border-bottom-width: 5px !important;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.products-slider .card-body {
+    padding: 2px !important;
+}
