@@ -8909,7 +8909,6 @@ html.nav-open .navbar-collapse {
 
 .banners-main {
     padding: 20px 114px;
-    background-image: url('../img/main/Rectangle 24.png');
     margin-bottom: 12px;
     position: relative;
     color: white;
@@ -8927,7 +8926,7 @@ html.nav-open .navbar-collapse {
         right: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(180deg, #2B3C90 0%, rgba(107, 51, 139, 0.51) 100%);
+        background: linear-gradient(180deg, #2B3C90 0%, rgb(107 51 139 / 76%) 100%);
         border-radius: 5px;
         content: "";
         display: block;
