@@ -8476,7 +8476,7 @@ License - nucleoapp.com/license/
 }
 
 .main-btn {
-    padding: 10px 25px 10px 25px;
+    padding: 8px 18px 10px 18px;
     background-color: rgba(107, 51, 139, 1);
     border-radius: 5px;
     color: white !important;
@@ -8516,7 +8516,7 @@ License - nucleoapp.com/license/
     margin-top: 1em;
     color: black;
     margin: auto;
-    width: 130px;
+    width: 140px;
     text-decoration: none;
     text-align: center;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
