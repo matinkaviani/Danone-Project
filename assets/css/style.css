@@ -7125,6 +7125,7 @@ License - nucleoapp.com/license/
         font-size: 12px;
         background-color: #efefef;
         min-height: 100vh;
+        margin-bottom: 100px;
     }
 
     h6 {
@@ -8998,6 +8999,7 @@ html.nav-open .navbar-collapse {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 50px;
 }
 .brandslogo-top {
     position: absolute;
