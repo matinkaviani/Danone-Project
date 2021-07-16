@@ -8533,6 +8533,9 @@ License - nucleoapp.com/license/
 .font-14 {
     font-size: 14px !important;
 }
+.font-15 {
+    font-size: 15px !important;
+}
 
 .line-h-30 {
     line-height: 30px;
@@ -9145,10 +9148,15 @@ html.nav-open .navbar-collapse {
     direction: rtl;
     text-align: right;
     margin-bottom: 15px;
+    border-radius: 5px;
 }
 .ph-card h2 {
     font-family: yekanbold;
     margin-bottom: 5px;
+}
+.ph-card p {
+    font-size: 15px;
+    line-height: 25px;
 }
 .ph-card img {
     width: 185px;
