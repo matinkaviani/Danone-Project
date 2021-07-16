@@ -9063,6 +9063,12 @@ html.nav-open .navbar-collapse {
     justify-content: center;
     align-items: center;
     margin: auto;
+    color: white;
+    transition: all 0.3s;
+}
+.brand-btn:focus {
+    background: white;
+    color: black;
 }
 .brandicn {
     border: solid 1px;
