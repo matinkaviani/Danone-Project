@@ -9034,6 +9034,12 @@ html.nav-open .navbar-collapse {
 .font-12 {
     font-size: 12px !important;
 }
+.font-13 {
+    font-size: 13px !important;
+}
+.font-18 {
+    font-size: 18px !important;
+}
 .z-11 {
     z-index: 11;
     position: relative;
@@ -9227,4 +9233,64 @@ html.nav-open .navbar-collapse {
 .envelope {
     max-width: 72px !important;
     max-height: 65px !important;
+}
+.notif-filter a.active {
+    position: relative;
+    display: block;
+}
+.notif-filter a:after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: #2B3C90;
+    bottom: -8px;
+    right: 0;
+    transition: width .3s;
+}
+.notif-filter a.active:after {
+    width: 100%;
+    bottom: -8px;
+    transition: width .3s;
+}
+.notif-filter a:before {
+    content: "";
+    width: 0px;
+    position: absolute;
+    height: 0px;
+    border-radius: 100%;
+    right: 50px;
+    top: 8px;
+    background: rgba(43, 60, 144, 1);
+    transition: all .3s;
+    margin: auto;
+}
+.notif-filter a.active:before {
+    width: 7px;
+    height: 7px;
+    transition: all .3s;
+    margin: auto;
+}
+.filter-card {
+    border-right: solid 7px #6B338B;
+}
+.notif-edit {
+    margin-right: 2rem;
+    position: relative;
+    color:rgba(65, 70, 199, 1)
+}
+.notif-edit:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: -3px;
+    background: rgba(65, 70, 199, 1);
+    right: 26px;
+}
+.notif-filter {
+    box-shadow: 0px 10px 12px rgb(0 0 0 / 10%);
+}
+.notif-filter li {
+    min-height: 40px;
 }
