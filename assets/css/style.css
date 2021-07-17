@@ -9241,17 +9241,19 @@ html.nav-open .navbar-collapse {
 .notif-filter a:after {
     position: absolute;
     content: "";
-    width: 0%;
+    width: 100%;
     height: 3px;
     background: #2B3C90;
     bottom: -8px;
     right: 0;
-    transition: width .3s;
+    transition: all .3s;
+    transform: scale(0);
 }
 .notif-filter a.active:after {
+    transform: scale(1);
     width: 100%;
     bottom: -8px;
-    transition: width .3s;
+    transition: all .3s;
 }
 .notif-filter a:before {
     content: "";
