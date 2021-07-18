@@ -9056,7 +9056,12 @@ html.nav-open .navbar-collapse {
 .font-18 {
     font-size: 18px !important;
 }
-
+.font-20 {
+    font-size: 20px !important;
+}
+.font-25 {
+    font-size: 25px !important;
+}
 .z-11 {
     z-index: 11;
     position: relative;
@@ -9329,9 +9334,9 @@ html.nav-open .navbar-collapse {
 }
 
 .notif-edit {
-    margin-right: 2rem;
+    margin-right: 40px;
     position: relative;
-    color: rgba(65, 70, 199, 1)
+    color: rgba(65, 70, 199, 1);
 }
 
     .notif-edit:after {
@@ -9341,7 +9346,7 @@ html.nav-open .navbar-collapse {
         height: 1px;
         bottom: -3px;
         background: rgba(65, 70, 199, 1);
-        right: 26px;
+        right: 40px;
     }
 
 .notif-filter {
