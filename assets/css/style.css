@@ -7123,7 +7123,7 @@ License - nucleoapp.com/license/
     body {
         position: relative;
         font-size: 12px;
-        background-color: #efefef;
+        background-color: #fbfbfb;
         min-height: 100vh;
         margin-bottom: 100px;
     }
@@ -9356,3 +9356,23 @@ html.nav-open .navbar-collapse {
     .notif-filter li {
         min-height: 40px;
     }
+
+.search-select {
+    padding: 0px 15px !important;
+    background: url('../img/chevron-arrow-down.png') no-repeat right #EFEFEF;
+    -webkit-appearance: none;
+    background-position-x: 15px;
+    color: #9E9E9E;
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+}
+.keywords-search {
+    background: #EFEFEF;
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+    padding: 0px 15px !important;
+    color: rgba(158, 158, 158, 1);
+}
+.self-center {
+    margin-top: 130px;
+}
