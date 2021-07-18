@@ -6633,7 +6633,7 @@ License - nucleoapp.com/license/
 }
 
 .page-header {
-    background-color: #efefef;
+    background-color: #fbfbfb;
     background-position: center center;
     background-size: cover;
     min-height: 100vh;
@@ -8563,7 +8563,7 @@ License - nucleoapp.com/license/
 
 .cam-icn {
     position: absolute;
-    right: 85px;
+    right: 0;
     top: 70px;
 }
 
@@ -9242,7 +9242,7 @@ html.nav-open .navbar-collapse {
     position: absolute;
     right: 30px;
     top: -9px;
-    background-color: #efefef;
+    background-color: #fbfbfb;
     width: auto;
     text-align: center;
     padding: 0 8px;
@@ -9375,4 +9375,23 @@ html.nav-open .navbar-collapse {
 }
 .self-center {
     margin-top: 130px;
+}
+.gray-color {
+    color: #A7A7A7;
+}
+.num-change {
+    position: absolute;
+    width: 100px;
+    height: 23px;
+    left: 15px;
+    top: 10px;
+    background: #2B3C90;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    font-size: 8px;
+    line-height: 23px;
+}
+.gray-btn {
+    background-color: rgba(147, 147, 147, 1) !important;
 }
