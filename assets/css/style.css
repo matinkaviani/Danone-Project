@@ -8911,6 +8911,9 @@ html.nav-open .navbar-collapse {
     display: grid;
     grid-template-columns: auto auto auto;
 }
+.products-filter-row .filter-selectdiv:before {
+    margin-left: 5px;
+}
 .products-row a {
     margin-bottom: 16px;
     padding: 0 5px !important;
