@@ -9551,3 +9551,6 @@ span.underline {
     box-shadow: none;
     border: none;
 }
+.breadcrumb-item + .breadcrumb-item {
+    padding-left: 0;
+}
