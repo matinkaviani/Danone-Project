@@ -9547,3 +9547,7 @@ span.underline {
 .max-w-87 {
     max-width: 87%;
 }
+#custCarousel .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+    box-shadow: none;
+    border: none;
+}
