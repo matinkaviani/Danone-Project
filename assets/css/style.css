@@ -8671,7 +8671,7 @@ html.nav-open .navbar-collapse {
 }
 
 .font-9 {
-    font-size: 9px;
+    font-size: 9px !important;
 }
 
 .bottom-nav {
@@ -9566,11 +9566,53 @@ span.underline {
     content: "";
     position: absolute;
     top: -7px;
-    right: 13px;
+    right: 11px;
     background: transparent;
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 0 7px 10px 7px;
     border-color: transparent transparent #ffffff transparent;
+}
+.admin-prof {
+    width: 39px !important;
+    height: 38px !important;
+}
+.radius-5 {
+    border-radius: 5px;
+}
+.back-grad {
+    background: linear-gradient( 180deg, rgba(107, 51, 139, 0.8) 0%, rgba(43, 60, 144, 0.8) 100%);
+    padding: 10px;
+    position: relative;
+}
+    .back-grad:before {
+        content: "";
+        position: absolute;
+        top: 15px;
+        right: -6px;
+        background: transparent;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 0px 5px 7px;
+        border-color: transparent transparent transparent rgba(107, 51, 139, 0.8);
+    }
+.line-h-ini {
+    line-height: initial !important;
+}
+.comment-box textarea {
+    width: 100%;
+    height: 105px;
+    border: none;
+}
+    .comment-box textarea:focus-visible {
+        outline: none;
+    }
+.comment-box {
+    padding: 10px;
+    border: solid 1px #dadada;
+    direction: rtl;
+    text-align: right;
+    border-radius: 5px;
 }
