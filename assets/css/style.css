@@ -9616,3 +9616,6 @@ span.underline {
     text-align: right;
     border-radius: 5px;
 }
+.width-93 {
+    max-width: 93px !important;
+}
