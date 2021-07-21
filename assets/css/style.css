@@ -9717,3 +9717,47 @@ span.underline {
 .purp-color {
     color: rgba(107, 51, 139, 1);
 }
+.forum-img {
+    width: 55px !important;
+    height: 55px !important;
+    backface-visibility: hidden;
+}
+.forum-doc:after {
+    position: absolute;
+    content: "";
+    right: -17px;
+    top: 5px;
+    background: url('../img/main/vector.svg');
+    width: 12px;
+    height: 16px;
+    background-size: contain;
+}
+.download-icn:after {
+    position: absolute;
+    content: "\f019";
+    font-size: 12px;
+    right: -15px;
+    top: 1px;
+    font-family: 'FontAwesome';
+}
+.file-name:after {
+    position: absolute;
+    content: "\f1c1";
+    font-size: 5px;
+    left: -7px;
+    top: 3px;
+    font-family: 'FontAwesome';
+}
+.text-gray {
+    color: rgba(146, 146, 146, 1) !important;
+}
+.forum-ans:after {
+    position: absolute;
+    content: "";
+    left: -29px;
+    top: -2px;
+    background: url('../img/main/ans.svg');
+    width: 25px;
+    height: 22px;
+    background-size: contain;
+}
