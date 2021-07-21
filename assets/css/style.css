@@ -9646,6 +9646,7 @@ span.underline {
 .panel-title {
   position: relative;
   padding: 6px 15px;
+  margin-top: 17px;
 }
   
 .panel-title a::after {
@@ -9684,7 +9685,7 @@ span.underline {
 }
 .panel-heading {
     background: linear-gradient(180deg, #6B338B 0%, #2B3C90 100%);
-    border-radius: 5px 5px 0px 0px
+    border-radius: 5px;
 }
 .panel-body {
     padding: 10px;
