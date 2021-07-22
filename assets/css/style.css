@@ -8564,7 +8564,9 @@ License - nucleoapp.com/license/
     .sec-bg:hover {
         background-color: rgb(89 106 188);
     }
-
+.mt-200 {
+    margin-top: 200px !important;
+}
 .mt-100 {
     margin-top: 100px !important;
 }
@@ -9653,6 +9655,13 @@ span.underline {
 .bg-5 {
     background-image: url(../img/main/Competition-detail.png);
     background-position: center;
+}
+.bg-6 {
+    background-image: url(../img/main/event-1.png);
+    background-position: center;
+}
+.undertop.bg-6:after {
+    background: linear-gradient(180deg, rgba(43, 60, 144, 0.99) 0%, rgba(107, 51, 139, 0.72) 42.71%, rgba(107, 51, 139, 0) 100%) !important;
 }
 .undertop.bg-5:after {
     background: linear-gradient(180deg, rgba(43, 60, 144, 0.99) 0%, rgba(107, 51, 139, 0.81) 42.71%, rgba(107, 51, 139, 0.67) 100%) !important;
