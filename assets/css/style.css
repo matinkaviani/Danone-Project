@@ -6646,7 +6646,7 @@ License - nucleoapp.com/license/
 }
 
 .page-header {
-    background-color: #fbfbfb;
+    background-color: #ffffff;
     background-position: center center;
     background-size: cover;
     min-height: 100vh;
@@ -7136,7 +7136,7 @@ License - nucleoapp.com/license/
     body {
         position: relative;
         font-size: 12px;
-        background-color: #fbfbfb;
+        background-color: #ffffff;
         min-height: 100vh;
         margin-bottom: 100px;
     }
@@ -8747,7 +8747,7 @@ html.nav-open .navbar-collapse {
 }
 
 .brand-logo {
-    background-color: #fbfbfb;
+    background-color: #ffffff;
     border-radius: 100%;
     width: 97px;
     margin: auto;
@@ -9304,7 +9304,7 @@ html.nav-open .navbar-collapse {
     right: 50% !important;
     transform: translateX(50%);
     top: -9px;
-    background-color: #fbfbfb;
+    background-color: #ffffff;
     width: auto;
     text-align: center;
     padding: 0 8px;
