@@ -8671,6 +8671,9 @@ html.nav-open .navbar-collapse {
     text-align: right;
     padding-bottom: 10px;
 }
+.font-7 {
+    font-size: 7px !important;
+}
 .font-8 {
     font-size: 8px !important;
 }
@@ -8934,7 +8937,11 @@ html.nav-open .navbar-collapse {
 .font-6 {
     font-size: 6px !important;
 }
-
+.grid-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 15px;
+}
 .grid-3 {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -9592,7 +9599,7 @@ span.underline {
     height: 38px !important;
 }
 .radius-5 {
-    border-radius: 5px;
+    border-radius: 5px !important;
 }
 .radius-3 {
     border-radius: 5px 5px 3px 3px;
@@ -9829,4 +9836,32 @@ span.underline {
 }
 .ans-comp {
     transition: all .3s;
+}
+.pwt-btn-submit {
+    background: #005299 !important;
+    color: white !important;
+    min-width: 100px !important;
+}
+.news-page .card {
+    border: 1px solid #DCDCDC;
+    border-bottom: solid 4px rgba(43, 60, 144, 0.85);
+    margin-bottom: 20px;
+    box-shadow: none;
+}
+.news-page .card-body {
+    padding-top: 5px;
+}
+.news-page .card-title {
+    margin-top: 5px !important;
+    line-height: 15px;
+    min-height: 30px !important;
+}
+.news-page .card-text {
+    padding-bottom: 5px !important;
+}
+.news-page .card-img-top {
+    border-radius: 5px 5px 0 0;
+}
+.mr-2px {
+    margin-right: 2px;
 }
