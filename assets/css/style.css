@@ -9589,7 +9589,7 @@ span.underline {
     border-radius: 5px;
 }
 .radius-3 {
-    border-radius: 3px;
+    border-radius: 5px 5px 3px 3px;
 }
 .back-grad {
     background: linear-gradient( 180deg, rgba(107, 51, 139, 0.8) 0%, rgba(43, 60, 144, 0.8) 100%);
@@ -9641,6 +9641,9 @@ span.underline {
 }
 .bg-3 {
     background-image: url(../img/main/Container2.png);
+}
+.bg-4 {
+    background-image: url(../img/main/events-bg.png);
 }
 .undertop:after {
     content: "";
