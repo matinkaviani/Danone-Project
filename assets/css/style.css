@@ -9103,7 +9103,9 @@ html.nav-open .navbar-collapse {
 .font-18 {
     font-size: 18px !important;
 }
-
+.font-19 {
+    font-size: 19px !important;
+}
 .font-20 {
     font-size: 20px !important;
 }
@@ -9552,7 +9554,7 @@ span.underline {
     max-width: 87%;
 }
 .max-w-95 {
-    max-width: 95%;
+    max-width: 95% !important;
 }
 #custCarousel .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
     box-shadow: none;
@@ -9641,9 +9643,17 @@ span.underline {
 }
 .bg-3 {
     background-image: url(../img/main/Container2.png);
+    background-position: center;
 }
 .bg-4 {
     background-image: url(../img/main/events-bg.png);
+}
+.bg-5 {
+    background-image: url(../img/main/Competition-detail.png);
+    background-position: center;
+}
+.undertop.bg-5:after {
+    background: linear-gradient(180deg, rgba(43, 60, 144, 0.99) 0%, rgba(107, 51, 139, 0.81) 42.71%, rgba(107, 51, 139, 0.67) 100%) !important;
 }
 .undertop:after {
     content: "";
