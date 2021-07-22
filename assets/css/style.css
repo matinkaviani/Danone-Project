@@ -9551,6 +9551,9 @@ span.underline {
 .max-w-87 {
     max-width: 87%;
 }
+.max-w-95 {
+    max-width: 95%;
+}
 #custCarousel .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
     box-shadow: none;
     border: none;
@@ -9584,6 +9587,9 @@ span.underline {
 }
 .radius-5 {
     border-radius: 5px;
+}
+.radius-3 {
+    border-radius: 3px;
 }
 .back-grad {
     background: linear-gradient( 180deg, rgba(107, 51, 139, 0.8) 0%, rgba(43, 60, 144, 0.8) 100%);
@@ -9633,15 +9639,21 @@ span.underline {
 .bg-2 {
     background-image: url(../img/main/Container.png);
 }
+.bg-3 {
+    background-image: url(../img/main/Container2.png);
+}
 .undertop:after {
     content: "";
     position: absolute;
     width: 100%;
-    height: 103%;
+    height: 100.5%;
     background: linear-gradient( 180deg, #2B3C90 0%, rgba(107, 51, 139, 0.59));
     top: -1px;
     right: 0;
     z-index: 0;
+}
+.undertop div {
+    z-index: 11;
 }
 .panel-title {
   position: relative;
@@ -9760,4 +9772,13 @@ span.underline {
     width: 25px;
     height: 22px;
     background-size: contain;
+}
+.comp-container img {
+    border-radius: 3px 3px 0 0;
+}
+.comp-container .card {
+    border: 1px solid #D7D7D7 !important;
+    box-shadow: none !important;
+    max-width: 330px;
+    margin: auto;
 }
