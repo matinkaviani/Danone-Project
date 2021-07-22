@@ -9660,6 +9660,13 @@ span.underline {
     background-image: url(../img/main/event-1.png);
     background-position: center;
 }
+.bg-7 {
+    background-image: url(../img/main/news1.png);
+    background-position: center;
+}
+.undertop.bg-7:after {
+    background: linear-gradient(180deg, rgba(43, 60, 144, 0.99) 0%, rgba(107, 51, 139, 0.72) 42.71%, rgba(107, 51, 139, 0) 100%) !important;
+}
 .undertop.bg-6:after {
     background: linear-gradient(180deg, rgba(43, 60, 144, 0.99) 0%, rgba(107, 51, 139, 0.72) 42.71%, rgba(107, 51, 139, 0) 100%) !important;
 }
