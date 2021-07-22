@@ -9301,7 +9301,8 @@ html.nav-open .navbar-collapse {
 
 .labelprof {
     position: absolute;
-    right: 30px;
+    right: 50% !important;
+    transform: translateX(50%);
     top: -9px;
     background-color: #fbfbfb;
     width: auto;
@@ -9558,6 +9559,9 @@ span.underline {
         background: #585858;
         bottom: 0px;
     }
+.max-w-50 {
+    max-width: 50% !important;
+}
 .max-w-80 {
     max-width: 80% !important;
 }
