@@ -9209,7 +9209,14 @@ html.nav-open .navbar-collapse {
     left: 10px;
     top: 10px;
 }
-
+.cal-icn {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+.art-select {
+    background-size: 11px !important;
+}
 .srch-box {
     padding-right: 15px !important;
     border: none;
