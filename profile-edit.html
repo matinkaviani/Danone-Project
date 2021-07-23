@@ -164,7 +164,7 @@ The above copyright notice and this permission notice shall be included in all c
                        <div class="mt-4 position-relative">
                            <span class="labelprof">شماره موبایل</span>
                            <img src="assets/img/ill/Mobile icon.svg" class="user-icn">
-                           <input class="prof-num en-font form-control text-right p-3" value="09121234567" />
+                           <input id="mobilenumber" class="prof-num en-font form-control text-right p-3" value="09121234567" readonly/>
                            <a class="num-change" href="#">درخواست تغییر شماره</a>
                        </div>
                        <div class="mt-4 position-relative">
@@ -229,74 +229,10 @@ The above copyright notice and this permission notice shall be included in all c
     <script src="./assets/owl/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function () {
-            $('.top-slider').owlCarousel({
-                rtl: true,
-                stagePadding: 50,
-                loop: true,
-                margin: 10,
-                dots: false,
-                nav: false,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    400: {
-                        items: 1
-                    },
-                    600: {
-                        items: 2
-                    },
-                    1000: {
-                        items: 2
-                    }
-                }
+            $('.num-change').click(function () {
+                $('#mobilenumber').removeAttr("readonly");
             });
-
-            $('.news-slider').owlCarousel({
-                rtl: true,
-                stagePadding: 0,
-                loop: true,
-                margin: 15,
-                dots: false,
-                nav: false,
-                responsive: {
-                    0: {
-                        items: 2
-                    },
-                    400: {
-                        items: 2
-                    },
-                    600: {
-                        items: 2
-                    },
-                    1000: {
-                        items: 2
-                    }
-                }
-            });
-
-                    $('.products-slider').owlCarousel({
-                rtl: true,
-                stagePadding: 0,
-                loop: true,
-                margin: 15,
-                dots: false,
-                nav: false,
-                responsive: {
-                    0: {
-                        items: 3
-                    },
-                    400: {
-                        items: 3
-                    },
-                    600: {
-                        items: 3
-                    },
-                    1000: {
-                        items: 3
-                    }
-                }
-            });
+            
       });
     </script>
 </body>
