@@ -9249,10 +9249,14 @@ html.nav-open .navbar-collapse {
     content: "\f0c9";
     font-size: 5px;
     font: normal normal normal 14px/1 FontAwesome;
+    position: relative;
+    right: -5px;
 }
 
 .filter-selectdiv.sort:before {
     content: "\f161";
+    position: relative;
+    right: -5px;
 }
 
 .filter-select option {
@@ -9262,7 +9266,8 @@ html.nav-open .navbar-collapse {
 .filter-selectdiv {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    position: relative;
+    justify-content: flex-end;
 }
 
 .ph-card {
@@ -9331,10 +9336,11 @@ html.nav-open .navbar-collapse {
 .competition {
     border-radius: 5px;
     position: relative;
-    width: 268px;
-    height: 85px;
+    /* width: 268px; */
+    /* height: 85px; */
     margin: 0;
     z-index: 0;
+    background-size: cover;
 }
 
     .competition:after {
