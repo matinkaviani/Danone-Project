@@ -8860,12 +8860,14 @@ html.nav-open .navbar-collapse {
 .news-slider .card-title {
     font-size: 10px;
     line-height: 15px;
+    min-height: 30px !important;
     text-align: right;
 }
 
 .news-slider .card-text {
     font-size: 9px;
     text-align: right;
+    min-height: 67px;
 }
 
 .card {
@@ -8908,6 +8910,7 @@ html.nav-open .navbar-collapse {
     width: 100%;
     margin-bottom: 10px !important;
     position: relative;
+    min-height: 20px !important;
 }
 
     .products-slider h4::after, .products-row h4::after {
@@ -8924,6 +8927,7 @@ html.nav-open .navbar-collapse {
     text-align: center;
     padding-bottom: 0 !important;
     margin-bottom: 6px !important;
+    min-height: 30px;
 }
 
 .products-row .card-body {
