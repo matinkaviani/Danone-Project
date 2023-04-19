@@ -9,4 +9,4 @@ git clone https://github.com/whereismatin/Danone-Project.git
 ```
 
 License
-The Danone-Project is licensed under the MIT License. Feel free to use and modify the code as you like.
+The Danone-Project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use and modify the code as you like.
