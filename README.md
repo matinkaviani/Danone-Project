@@ -1,4 +1,4 @@
-Danone-Project
+# Danone-Project
 This is a repository for the Danone-Project, a project aimed at analyzing sales data for Danone products in different regions and markets. The project is developed using HTML, Css and Pure JavaScript.
 
 To install and run the Danone-Project, follow these steps:
