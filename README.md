@@ -26,7 +26,7 @@ This is a repository for the Danone project, a project aimed at analyzing sales 
 
 Clone the repository to your local machine using the following command:
 ```
-git clone https://github.com/whereismatin/Danone-Project.git
+git clone https://github.com/matinkaviani/Danone-Project.git
 ```
 
 ## License
